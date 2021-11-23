@@ -1,0 +1,67 @@
+entier function min(entier x, entier y)
+	{
+	new entier res;
+	when x > y $
+	true {res = x;}
+	false {res = y;}$
+	return res;
+	}
+
+lecture function first(valeur a, valeur b)
+	{
+	new valeur str;
+	str = concat(a,b);
+	newline;
+        print "Result: ";
+	print str;
+	newline;
+	return;
+	}
+
+main
+	{
+	new entier x = 123;
+	new entier y = 4;
+	x = x % y;
+	print x;
+	new entier z = -5;
+	new valeur a = "Hello ";
+	new valeur b = "world!!!";
+        new valeur c = "6";
+        new entier d;
+        print "Translate from entier to valeur: ";
+        d = atoii(c);
+        print d;
+        newline;
+	new entier k;
+	k = lenght(a)+1;
+        print "Dayjhinia radka a:";
+	print k;
+        newline;
+        new entier result;
+        result = x;
+	print "Left Shift: "; 
+	print result;
+       	newline;
+ 	new entier t;
+	print "Between 327 and 9 more: ";
+	newline;
+	new entier e = 1;
+	print "Cycle from 1 da 5: ";
+	when e ! 5 $
+	cycle 	{
+		print e;
+		print " ";
+		e = e +1; 
+		}$
+	print e;
+	newline;
+	new entier h;
+	h = d % 5;
+	print "Division 32 by 5: ";
+	print h;
+	newline;
+	print "---------------------------------";
+	first(a, b);
+	print "---------------------------------";
+	}
